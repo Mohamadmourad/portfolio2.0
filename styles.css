@@ -82,6 +82,7 @@ header nav a:active{
     justify-content: center;
     margin-left: 20px;
     margin-top: 40px;
+    font-size: 13px;
 }
 
 .information li{
@@ -344,12 +345,12 @@ height: 100px;
 
 @media all and (max-width: 360px){
 .card{
-    height: 200px;
+    height: 180px;
 }
 }
 
 @media all and (max-width: 330px){
     .card{
-        height: 250px;
+        height: 200px;
     }
     }
