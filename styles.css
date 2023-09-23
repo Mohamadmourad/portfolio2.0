@@ -341,3 +341,15 @@ height: 100px;
     align-items: center;
     justify-content: center;
 }
+
+@media all and (max-width: 360px){
+.card{
+    height: 200px;
+}
+}
+
+@media all and (max-width: 330px){
+    .card{
+        height: 250px;
+    }
+    }
