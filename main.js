@@ -20,10 +20,10 @@ document.getElementById('codeProject3').onclick = () =>{
 }
 
 document.getElementById('project4').onclick = () =>{
-    window.open('https://tourmaline-banoffee-4d89a0.netlify.app/','_blank')
+    window.open('https://chessclock511.netlify.app/','_blank')
 }
 document.getElementById('codeProject4').onclick = () =>{
-    window.open('https://github.com/Mohamadmourad/Interactive-rating-component','_blank')
+    window.open('https://github.com/Mohamadmourad/chess-clock','_blank')
 }
 
 document.getElementById('insta').onclick = () =>{
