@@ -26,12 +26,24 @@ document.getElementById('codeProject4').onclick = () =>{
     window.open('https://github.com/Mohamadmourad/chess-clock','_blank')
 }
 
+document.getElementById('project5').onclick = () =>{
+    window.open('https://movingsquare.netlify.app/','_blank')
+}
+document.getElementById('codeProject5').onclick = () =>{
+    window.open('https://github.com/Mohamadmourad/moving-square','_blank')
+}
+
 document.getElementById('insta').onclick = () =>{
     window.open('https://www.instagram.com/mourad511_/','_blank')
 }
 
 document.getElementById('github').onclick = () =>{
     window.open('https://github.com/Mohamadmourad','_blank')
+}
+
+document.getElementById('moreProjectsBtn').onclick = () => {
+    document.getElementById('moreProjectsBtn').style.display = 'none';
+    document.getElementById('moreProjects').style.display = 'flex';
 }
 
 
