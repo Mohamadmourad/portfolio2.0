@@ -112,6 +112,14 @@ header nav a:active{
 
 #socialLinks i{
     font-size: 30px;
+    cursor: pointer;
+}
+
+#socialLinks img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
 }
 
 #socialLinks i:active{

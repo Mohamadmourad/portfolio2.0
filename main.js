@@ -41,6 +41,10 @@ document.getElementById('github').onclick = () =>{
     window.open('https://github.com/Mohamadmourad','_blank')
 }
 
+document.getElementById('leetcode').onclick = () =>{
+    window.open('https://leetcode.com/mohamadmourad/','_blank')
+}
+
 document.getElementById('moreProjectsBtn').onclick = () => {
     document.getElementById('moreProjectsBtn').style.display = 'none';
     document.getElementById('moreProjects').style.display = 'flex';
