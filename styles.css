@@ -365,4 +365,21 @@ height: 100px;
     .card{
         height: 200px;
     }
+    
+}
+
+@media all and (min-width: 700px){
+    .project{
+        width: 65%;
+        height: 400px;
     }
+    
+    .project img{
+        height: 100%;
+        width: 95%;
+        border: 2px dashed black;
+        border-radius: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+}
