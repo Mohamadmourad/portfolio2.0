@@ -171,6 +171,69 @@ header nav a:active{
     padding: 5px;
     border-radius: 10px;
 }
+/*Skills section*/
+.skillsSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.skillsSection p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #64CCC5;
+    text-decoration: underline;
+}
+
+.skillSet{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin-top: 70px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill i{
+    font-size: 40px;
+    color: #64CCC5;
+}
+
+.skill p{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+.HTML i{
+    color: #E96228;
+}
+
+.Css i{
+    color: #2965F1;
+}
+
+.js i{
+    color: #F0DB4F;
+}
+
+.java i{
+    color: #E51F24;
+}
+
+.sql i{
+    color: #F29111;
+}
 /*section 3*/
 .section3{
     background-color: #64CCC5;
@@ -303,6 +366,43 @@ header nav a:active{
     left: -1.5%;
     top: 40%;
   }
+/*Grad process*/
+.gradProcess{
+    height: 270px;
+    border-bottom: 2px dashed black;
+}
+.gradProcess p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #64CCC5;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.process{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.processbox{
+    border: solid;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.processpercentage{
+    background-color: lightgreen;
+    height: 100%;
+    border-radius: 10px;
+    width: 50%;
+    transition: width 1s ease-in-out;
+    padding-left: 20px;
+    color: black;
+}
+
 
 /*section 4*/
 
@@ -315,7 +415,7 @@ header nav a:active{
 }
 
 .section4 p{
-    margin-top: 160px;
+    margin-top: 70px;
     font-weight: bold;
     font-size: 14px;
     text-align: center;
@@ -371,7 +471,7 @@ height: 100px;
 @media all and (min-width: 700px){
     .project{
         width: 65%;
-        height: 400px;
+        height: 500px;
     }
     
     .project img{

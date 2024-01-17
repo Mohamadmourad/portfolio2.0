@@ -46,4 +46,10 @@ document.getElementById('moreProjectsBtn').onclick = () => {
     document.getElementById('moreProjects').style.display = 'flex';
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    let parentElement = document.getElementById("processbox");
+    let childElement = document.getElementById("processpercentage");
+  document.getElementById('perc').innerHTML = Math.floor((childElement.offsetWidth / parentElement.offsetWidth) * 100)+1 + "%";
+});
+
 
