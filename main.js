@@ -56,4 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById('perc').innerHTML = Math.floor((childElement.offsetWidth / parentElement.offsetWidth) * 100)+1 + "%";
 });
 
+let observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else{
+            entry.target.classList.remove('show');
+        }
+    })
+});
+
+document.querySelectorAll('.project').forEach(project => {
+    observer.observe(project);
+});
+
 
