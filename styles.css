@@ -474,7 +474,7 @@ height: 100px;
 /*Animation*/
 .project{
     opacity: 0;
-    transition: all 1.2s;
+    transition: all 0.8s;
 }
 
 .right{

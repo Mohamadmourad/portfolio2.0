@@ -13,10 +13,10 @@ document.getElementById('codeProject2').onclick = () =>{
 }
 
 document.getElementById('project3').onclick = () =>{
-    window.open('https://chessguesser.netlify.app/','_blank')
+    window.open('https://gpacalc511.netlify.app/','_blank')
 }
 document.getElementById('codeProject3').onclick = () =>{
-    window.open('https://github.com/Mohamadmourad/chessGuesser','_blank')
+    window.open('https://github.com/Mohamadmourad/gpa-calculator','_blank')
 }
 
 document.getElementById('project4').onclick = () =>{
